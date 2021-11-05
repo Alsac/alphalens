@@ -16,6 +16,7 @@
 import matplotlib.gridspec as gridspec
 import matplotlib.pyplot as plt
 import pandas as pd
+import os
 import warnings
 
 from . import plotting
@@ -177,7 +178,7 @@ def create_summary_tear_sheet(
 
 @plotting.customize
 def create_returns_tear_sheet(
-    factor_data, long_short=True, group_neutral=False, by_group=False
+    factor_data, long_short=True, group_neutral=False, by_group=False, save_path=None
 ):
     """
     Creates a tear sheet for returns analysis of a factor.
@@ -302,7 +303,8 @@ def create_returns_tear_sheet(
         bandwidth=0.5,
         ax=ax_mean_quantile_returns_spread_ts,
     )
-
+    if save_path is not None:
+        plt.savefig(os.path.join(save_path, 'returns_tear_sheet.png'))
     plt.show()
     gf.close()
 
@@ -340,13 +342,15 @@ def create_returns_tear_sheet(
             ylim_percentiles=(5, 95),
             ax=ax_quantile_returns_bar_by_group,
         )
+        if save_path is not None:
+            plt.savefig(os.path.join(save_path, 'returns_tear_sheet.png'))
         plt.show()
         gf.close()
 
 
 @plotting.customize
 def create_information_tear_sheet(
-    factor_data, group_neutral=False, by_group=False
+    factor_data, group_neutral=False, by_group=False, save_path=None
 ):
     """
     Creates a tear sheet for information analysis of a factor.
@@ -402,12 +406,14 @@ def create_information_tear_sheet(
 
         plotting.plot_ic_by_group(mean_group_ic, ax=gf.next_row())
 
+    if save_path is not None:
+        plt.savefig(os.path.join(save_path,'information_tear_sheet.png'))
     plt.show()
     gf.close()
 
 
 @plotting.customize
-def create_turnover_tear_sheet(factor_data, turnover_periods=None):
+def create_turnover_tear_sheet(factor_data, turnover_periods=None, save_path=None):
     """
     Creates a tear sheet for analyzing the turnover properties of a factor.
 
@@ -480,7 +486,8 @@ def create_turnover_tear_sheet(factor_data, turnover_periods=None):
         plotting.plot_factor_rank_auto_correlation(
             autocorrelation[period], period=period, ax=gf.next_row()
         )
-
+    if save_path is not None:
+        plt.savefig(os.path.join(save_path, 'turnover_tear_sheet.png'))
     plt.show()
     gf.close()
 
@@ -489,7 +496,7 @@ def create_turnover_tear_sheet(factor_data, turnover_periods=None):
 def create_full_tear_sheet(factor_data,
                            long_short=True,
                            group_neutral=False,
-                           by_group=False):
+                           by_group=False,execute_num=[1,2,3], save_path=None):
     """
     Creates a full tear sheet for analysis and evaluating single
     return predicting (alpha) factor.
@@ -514,16 +521,21 @@ def create_full_tear_sheet(factor_data,
         flag affects information analysis
     by_group : bool
         If True, display graphs separately for each group.
+    execute_num: list
+        [1,2,3] represent three pictures.
     """
 
     plotting.plot_quantile_statistics_table(factor_data)
-    create_returns_tear_sheet(
-        factor_data, long_short, group_neutral, by_group, set_context=False
-    )
-    create_information_tear_sheet(
-        factor_data, group_neutral, by_group, set_context=False
-    )
-    create_turnover_tear_sheet(factor_data, set_context=False)
+    if 1 in execute_num:
+        create_returns_tear_sheet(
+            factor_data, long_short, group_neutral, by_group, set_context=False, save_path=save_path
+        )
+    if 2 in execute_num:
+        create_information_tear_sheet(
+            factor_data, group_neutral, by_group, set_context=False, save_path=save_path
+        )
+    if 3 in execute_num:
+        create_turnover_tear_sheet(factor_data, set_context=False, save_path=save_path)
 
 
 @plotting.customize
