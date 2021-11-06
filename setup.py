@@ -17,7 +17,6 @@ install_reqs = [
     'seaborn>=0.6.0',
     'statsmodels>=0.6.1',
     'IPython>=3.2.3',
-    'empyrical>=0.5.0',
 ]
 
 extra_reqs = {
@@ -25,7 +24,6 @@ extra_reqs = {
         "nose>=1.3.7",
         "parameterized>=0.5.0",
         "tox>=2.3.1",
-        "flake8>=3.7.9",
     ],
 }
 

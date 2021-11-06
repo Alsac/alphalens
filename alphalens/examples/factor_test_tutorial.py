@@ -19,8 +19,8 @@ prices.fillna(method='ffill', inplace=True)
 factor = data.loc[:, 'predict_0']  # take the column as factor
 factor = factor.groupby(as_index=True, level=1).apply(lambda x:x.fillna(method='ffill'))
 
-factor_data = get_clean_factor_and_forward_returns(factor=factor, prices=prices, groupby=None, quantiles=10, periods=(1,10,))
-create_full_tear_sheet(factor_data, long_short=True, execute_num=[1,])
+factor_data = get_clean_factor_and_forward_returns(factor=factor, prices=prices, groupby=None, quantiles=10, periods=(5,10,))
+create_full_tear_sheet(factor_data, long_short=True, execute_num=[1,2])
 create_full_tear_sheet(factor_data, long_short=True, execute_num=[3], save_path=r'C:\Users\wangyl\Documents\GitHub\alphalens\alphalens\examples')
 create_returns_tear_sheet(factor_data, long_short=True, group_neutral=False, by_group=False, set_context=False)
 create_information_tear_sheet(factor_data)

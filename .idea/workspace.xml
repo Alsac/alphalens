@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6e2db370-d8dc-4bc7-9e9a-1a09b8f379a8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MANIFEST.in" beforeDir="false" afterPath="$PROJECT_DIR$/MANIFEST.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/README.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/alphalens/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens/_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/alphalens/_version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens/examples/factor_test_tutorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/alphalens/examples/factor_test_tutorial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens/examples/tear_sheet_walk_through.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/alphalens/examples/tear_sheet_walk_through.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens/performance.py" beforeDir="false" afterPath="$PROJECT_DIR$/alphalens/performance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens/plotting.py" beforeDir="false" afterPath="$PROJECT_DIR$/alphalens/plotting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens/tears.py" beforeDir="false" afterPath="$PROJECT_DIR$/alphalens/tears.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens/tests/test_performance.py" beforeDir="false" afterPath="$PROJECT_DIR$/alphalens/tests/test_performance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens/tests/test_tears.py" beforeDir="false" afterPath="$PROJECT_DIR$/alphalens/tests/test_tears.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens/tests/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/alphalens/tests/test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/alphalens/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_and_deploy_docs.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/make.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/alphalens.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/alphalens.tests.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/index.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/modules.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/setup.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tox.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versioneer.py" beforeDir="false" afterPath="$PROJECT_DIR$/versioneer.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="4f3acd1c-671e-4ece-bc0d-1d1686c032b7" />
+  <component name="ProjectId" id="20VCJMPDk09vvFZAl9Ye9Ws8KaD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e2db370-d8dc-4bc7-9e9a-1a09b8f379a8" name="Default Changelist" comment="" />
+      <created>1636120294597</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636120294597</updated>
+      <workItem from="1636120295667" duration="15624000" />
+      <workItem from="1636184629347" duration="610000" />
+    </task>
+    <task id="LOCAL-00001" summary="update save path">
+      <created>1636121877582</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636121877582</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update save path">
+      <created>1636184371711</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636184371711</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update save path" />
+    <option name="LAST_COMMIT_MESSAGE" value="update save path" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1516" y="552" key="CommitChangelistDialog2" timestamp="1636184370893">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="1516" y="552" key="CommitChangelistDialog2/0.0.3840.2120/-2160.0.2160.3800@0.0.3840.2120" timestamp="1636184370893" />
+    <state x="384" y="268" width="2799" height="1704" key="DiffContextDialog" timestamp="1636175928920">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="384" y="268" width="2799" height="1704" key="DiffContextDialog/0.0.3840.2120/-2160.0.2160.3800@0.0.3840.2120" timestamp="1636175928920" />
+    <state x="1084" y="857" key="FileChooserDialogImpl" timestamp="1636123867659">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="1084" y="857" key="FileChooserDialogImpl/0.0.3840.2120/-2160.0.2160.3800@0.0.3840.2120" timestamp="1636123867659" />
+    <state x="737" y="636" width="1746" height="712" key="SettingsEditor" timestamp="1636177985448">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="737" y="636" width="1746" height="712" key="SettingsEditor/0.0.3840.2120/-2160.0.2160.3800@0.0.3840.2120" timestamp="1636177985448" />
+    <state x="1546" y="801" key="Vcs.Push.Dialog.v2" timestamp="1636184379794">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="1546" y="801" key="Vcs.Push.Dialog.v2/0.0.3840.2120/-2160.0.2160.3800@0.0.3840.2120" timestamp="1636184379794" />
+    <state width="935" height="500" key="javadoc.popup.new" timestamp="1636182555451">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state width="935" height="500" key="javadoc.popup.new/0.0.3840.2120/-2160.0.2160.3800@0.0.3840.2120" timestamp="1636182555451" />
+  </component>
+</project>
