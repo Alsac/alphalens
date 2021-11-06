@@ -145,6 +145,7 @@ def plot_returns_table(alpha_beta,
 
     print("Returns Analysis")
     utils.print_table(returns_table.apply(lambda x: x.round(3)))
+    return returns_table
 
 
 def plot_turnover_table(autocorrelation_data, quantile_turnover):
@@ -179,13 +180,15 @@ def plot_information_table(ic_data):
     utils.print_table(ic_summary_table.apply(lambda x: x.round(3)).T)
 
 
-def plot_quantile_statistics_table(factor_data):
+def plot_quantile_statistics_table(factor_data, save_path=None):
     quantile_stats = factor_data.groupby('factor_quantile') \
         .agg(['min', 'max', 'mean', 'std', 'count'])['factor']
     quantile_stats['count %'] = quantile_stats['count'] \
         / quantile_stats['count'].sum() * 100.
 
     print("Quantiles Statistics")
+    if save_path is not None:
+        pd.to_csv(os.path.join(save_path, 'stat_table.txt'))
     utils.print_table(quantile_stats)
 
 
