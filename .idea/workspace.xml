@@ -2,35 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e2db370-d8dc-4bc7-9e9a-1a09b8f379a8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MANIFEST.in" beforeDir="false" afterPath="$PROJECT_DIR$/MANIFEST.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PKG-INFO" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/README.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens.egg-info/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens.egg-info/top_level.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/alphalens/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/alphalens/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alphalens/_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/alphalens/_version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens/examples/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens/examples/abc.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens/examples/abc.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens/examples/alphalens_tutorial_on_quantopian.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/alphalens/examples/factor_test_tutorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/alphalens/examples/factor_test_tutorial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens/examples/information_tear_sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens/examples/returns_tables.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens/examples/returns_tear_sheet.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/alphalens/examples/tear_sheet_walk_through.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/alphalens/examples/tear_sheet_walk_through.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens/examples/thomas data.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/alphalens/performance.py" beforeDir="false" afterPath="$PROJECT_DIR$/alphalens/performance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alphalens/plotting.py" beforeDir="false" afterPath="$PROJECT_DIR$/alphalens/plotting.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alphalens/tears.py" beforeDir="false" afterPath="$PROJECT_DIR$/alphalens/tears.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphalens/tests/matplotlibrc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/alphalens/tests/test_performance.py" beforeDir="false" afterPath="$PROJECT_DIR$/alphalens/tests/test_performance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alphalens/tests/test_tears.py" beforeDir="false" afterPath="$PROJECT_DIR$/alphalens/tests/test_tears.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alphalens/tests/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/alphalens/tests/test_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alphalens/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/alphalens/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_and_deploy_docs.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/make.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source/alphalens.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source/alphalens.tests.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source/conf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source/modules.rst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/setup.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tox.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/versioneer.py" beforeDir="false" afterPath="$PROJECT_DIR$/versioneer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1636120294597</updated>
       <workItem from="1636120295667" duration="15624000" />
-      <workItem from="1636184629347" duration="610000" />
+      <workItem from="1636184629347" duration="3350000" />
     </task>
     <task id="LOCAL-00001" summary="update save path">
       <created>1636121877582</created>
