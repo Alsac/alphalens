@@ -354,7 +354,7 @@ def create_summary_tear_sheet(
 def create_returns_tear_sheet(factor_data,
                               long_short=True,
                               group_neutral=False,
-                              by_group=False):
+                              by_group=False, save_path=None):
     """
     Creates a tear sheet for returns analysis of a factor.
 
@@ -476,7 +476,8 @@ def create_returns_tear_sheet(factor_data,
         bandwidth=0.5,
         ax=ax_mean_quantile_returns_spread_ts
     )
-
+    if save_path is not None:
+        plt.savefig(os.path.join(save_path, 'returns_tear_sheet.png'))
     plt.show()
     gf.close()
 
@@ -505,6 +506,8 @@ def create_returns_tear_sheet(factor_data,
                                            by_group=True,
                                            ylim_percentiles=(5, 95),
                                            ax=ax_quantile_returns_bar_by_group)
+        if save_path is not None:
+            plt.savefig(os.path.join(save_path, 'returns_tear_sheet.png'))
         plt.show()
         gf.close()
 
@@ -513,7 +516,7 @@ def create_returns_tear_sheet(factor_data,
 @plotting.customize
 def create_information_tear_sheet(
     factor_data, group_neutral=False, by_group=False, save_path=None
-):
+    ):
     """
     Creates a tear sheet for information analysis of a factor.
 
@@ -684,7 +687,7 @@ def create_full_tear_sheet(factor_data,
     by_group : bool
         If True, display graphs separately for each group.
     execute_num: list
-        [1,2,3] represent three pictures.
+        [1,2,3] represent three pictures. 1:create_returns_tear_sheet; 2:create_information_tear_sheet; 3:create_turnover_tear_sheet;
     """
 
     plotting.plot_quantile_statistics_table(factor_data)
